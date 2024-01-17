@@ -1,0 +1,44 @@
+/* Keep all of your heading styles up top */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    /* Box model - look this up for a better explanation */
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+.products-contain {
+    display: flex;
+    gap: 5rem;
+    margin:0 auto;
+}
+
+.product img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.product {
+    width: 33.33%;
+}
+
+.product .copy {
+    padding: 2rem 0 0 0;
+}
+
